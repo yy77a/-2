@@ -1,0 +1,20 @@
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    gap: 5px
+    background: color #ede9db;
+}
+.product img{
+    width: 500px;
+    height: 700px;
+    order: 0;
+    alignSelf: auto;
+    flexBasis: auto;
+    flexGrow: 0;
+    flexShrink: 1
+    min: width 0;
+}
